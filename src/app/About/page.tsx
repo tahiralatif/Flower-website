@@ -19,7 +19,17 @@ export default function AboutPage() {
 
       {/* About Us Section */}
       <section className=" py-10 px-6">
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-10">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center space-y-6 md:space-y-0 md:space-x-10">
+          
+
+        <div className="md:w-1/2">
+            <Image 
+              src={Img} 
+              alt="team-img"
+              className="w-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
+            />
+          </div>
+          
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-4xl font-bold text-red-950 mb-4">Meet Our Team</h2>
             <p className="text-black text-lg mb-6">
@@ -41,26 +51,32 @@ export default function AboutPage() {
               Contact Our Team
             </button>
           </div>
-          <div className="md:w-1/2">
-            <Image 
-              src={Img} 
-              alt="team-img"
-              className="w-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
-            />
-          </div>
+          
         </div>
       </section>
 
-      {/* Our Story Section */}
+      
       
 
-      {/* Our Mission and Why Choose Us Sections */}
+    
       <section className="container mx-auto px-6 py-10 text-gray-800">
 
 
 
 
-      <div className="flex flex-col md:flex-row-reverse  items-center justify-center space-y-6 md:space-y-0 md:space-x-10">
+      <div className="flex flex-col md:flex-row  items-center justify-center space-y-6 md:space-y-0 md:space-x-10">
+          
+
+      <div className="md:w-1/2">
+            <Image 
+              src={image2} 
+              alt="team-img"
+              className="w-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
+            />
+          </div>
+          
+          
+          
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-4xl font-bold text-red-950 mb-4 px-10">{"𝑺𝒑𝒓𝒆𝒂𝒅𝒊𝒏𝒈 𝑱𝒐𝒚, 𝑶𝒏𝒆 𝑩𝒍𝒐𝒐𝒎 𝒂𝒕 𝒂 𝑻𝒊𝒎𝒆"}</h2>
             <p className="text-black text-lg mb-6 px-12">
@@ -68,13 +84,7 @@ export default function AboutPage() {
             </p>
             
           </div>
-          <div className="md:w-1/2">
-            <Image 
-              src={image2} 
-              alt="team-img"
-              className="w-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
-            />
-          </div>
+          
         </div>
          
         

@@ -1,7 +1,6 @@
 import React from "react";
 import { GiTwirlyFlower } from "react-icons/gi";
 import { FaSearch, FaCartArrowDown } from "react-icons/fa";
-import { TbDiamondFilled } from "react-icons/tb";
 import { RxHamburgerMenu } from "react-icons/rx";    
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
