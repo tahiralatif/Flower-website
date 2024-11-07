@@ -35,7 +35,7 @@ export default function Navbar() {
             <Link href="/faqsection">{"𝓕𝓐𝓠"}</Link>
           </li>
           <li className="hover:border-b-2 hover:border-b-orange-700">
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">{"𝓒𝓸𝓷𝓽𝓪𝓬𝓽"}</Link>
           </li>
         </ul>
 
