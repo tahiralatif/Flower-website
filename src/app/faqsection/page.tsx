@@ -34,7 +34,7 @@ export default function FaqPage() {
        <div>
         <h1 className="text-center font-serif text-[40px] pt-6 text-red-900 mx-auto px-1">Helpful Information for Flower Lovers</h1>
         <p className="text-center font-serif text-[16px] md:text-[20px] mx-auto px-10 mt-2">
-          {"Welcome to our FAQ section! Here, you&apos;ll find helpful information crafted with flower lovers in mind."}
+          {"Welcome to our FAQ section! Here, you'll find helpful information crafted with"}
         </p>
 
         <div className="flex flex-col lg:flex-row items-center w-full py-12 lg:py-16 px-4 gap-x-6 mx-auto max-w-screen-xl">
