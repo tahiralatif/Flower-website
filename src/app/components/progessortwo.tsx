@@ -54,7 +54,7 @@ export default function Progressor() {
               Step 3: <span className="text-orange-700">Enjoy the Discount</span>
             </h6>
             <p className="text-sm text-black">
-              Use 'FLORET20' at checkout to get 20% off your order.
+             {" Use 'FLORET20' at checkout to get 20% off your order."}
             </p>
           </div>
         </div>
