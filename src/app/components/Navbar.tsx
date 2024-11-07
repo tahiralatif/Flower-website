@@ -26,25 +26,25 @@ export default function Navbar() {
         {/* Desktop Navigation Links */}
         <ul className="hidden md:flex space-x-8 font-semibold text-pink-700 text-[18px]">
           <li className="hover:border-b-2 hover:border-b-orange-700">
-            <Link href="/">Home</Link>
+            <Link href="/">{"𝓗𝓸𝓶𝓮"}</Link>
           </li>
           <li className="hover:border-b-2 hover:border-b-orange-700">
-            <Link href="/About">About</Link>
+            <Link href="/About">{"𝓐𝓫𝓸𝓾𝓽"}</Link>
           </li>
           <li className="hover:border-b-2 hover:border-b-orange-700">
-            <Link href="/faqsection">FAQ</Link>
+            <Link href="/faqsection">{"𝓕𝓐𝓠"}</Link>
           </li>
           <li className="hover:border-b-2 hover:border-b-orange-700">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
 
-        {/* Mobile Icons and Menu */}
+        
         <div className="flex items-center gap-2 md:gap-4">
           {/* Cart Icon */}
           <FaCartArrowDown className="p-1 w-8 h-8 rounded-full ring-2 ring-pink-300 text-amber-500 hover:ring-pink-400 flex-shrink-0" />
 
-          {/* Mobile Hamburger Menu */}
+         
           <Sheet>
             <SheetTrigger className="md:hidden">
               <RxHamburgerMenu className="w-9 h-9 text-gray-700 flex-shrink-0" />
