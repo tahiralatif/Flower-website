@@ -9,8 +9,7 @@ const ProductCardGrid = () => {
     "https://assets.arabianflora.com/uploads/product-pics/1650610348_16136370171600777242_large_1790.jpg",
     "https://c8.alamy.com/comp/J3K139/rose-flowers-in-vase-beautiful-romantic-bouquet-copy-space-top-view-J3K139.jpg",
     "https://bloomthis.co/cdn/shop/files/bloomthis-bouquet-ashley-red-rose-bouquet-1080x1080-01-creative.jpg?v=1715843785&width=1080",
-    "https://i.etsystatic.com/6293506/r/il/1be2cf/916459035/il_570xN.916459035_eyax.jpg",
-    "https://imondiflorists.com/cdn/shop/files/R5557S_LOL_preset_mol-mx-tile-wide-sv-new_190d930b-9c65-4ed5-b3a6-56d45426e5c1.jpg?v=1727201799",
+
   ];
 
   const FlowerNames = [
@@ -20,12 +19,11 @@ const ProductCardGrid = () => {
     "Luxury Orchid Bouquet",
     "Romantic Rose Vase",
     "Ashley Red Rose Bouquet",
-    "Peach Rose Wedding Bouquet",
-    "Harmony Bouquet",
+    
   ];
 
   return (
-    <div className="relative text-center p-10 mx-auto max-w-screen-xl sm:py-4 md:px-6">
+    <div className="relative text-center md:py-0 p-10 mx-auto max-w-screen-xl sm:py-4 md:px-6">
       <div className="absolute inset-0 bg-white" style={{ zIndex: 0 }} />
 
       <h1 className="font-semibold text-4xl mb-4 text-amber-800 z-10 relative">
@@ -37,7 +35,7 @@ const ProductCardGrid = () => {
 
       <section
         id="Projects"
-        className="w-full mx-auto grid grid-cols-1 md:grid-cols-4 justify-items-center gap-y-8 gap-x-0 mt-10 mb-5"
+        className="w-full mx-auto grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-8 gap-x-0 mt-10 mb-5"
       >
         {Array.from({ length: ProductImages.length }).map((__, index) => (
           <div

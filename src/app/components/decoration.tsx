@@ -44,28 +44,15 @@ const Decoration = () => {
       price: "$149",
       originalPrice: "$199",
     },
-    {
-      name: "Lovely Orange Bouquet ",
-      image:
-        "https://www.weflowers.com/cdn/shop/files/6_48123ed1-8bc7-47e8-b91d-69fbb6257ede_938x.jpg?v=1705131070",
-      price: "$149",
-      originalPrice: "$199",
-    },
-    {
-      name: "Blushing Rose",
-      image:
-        "https://fiftyflowers.com/cdn/shop/files/beautiful-pink-rose-flower-arrangements-centerpieces-online-vase_d9b55.webp?v=1683315730&width=800",
-      price: "$149",
-      originalPrice: "$199",
-    },
+
   ];
   
 
   return (
-    <div className="relative text-center p-10 mx-auto max-w-screen-xl sm:py-4 md:px-6">
+    <div className="relative text-center md:py-0 p-10 mx-auto max-w-screen-xl sm:py-4 md:px-6">
       <section
         id="Projects"
-        className="w-full grid grid-cols-1 md:grid-cols-4 justify-items-center gap-y-8 gap-x-4 mt-10 mb-5"
+        className="w-full grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-8 gap-x-4 mt-10 mb-5"
       >
         {products.map((product, index) => (
           <div
