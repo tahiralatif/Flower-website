@@ -54,7 +54,7 @@ export default function Progressor() {
               Step:3 <p className="text-orange-700">Enjoy the Discount</p>
             </h6>
             <p className="text-xs text-black">
-            Use 'FLORET20' at checkout to get 20% off your order
+            Use &apos;FLORET20&apos; at checkout to get 20% off your order
             </p>
           </div>
         </div>

@@ -43,7 +43,7 @@ const Reservation = () => {
           </div>
 
           <div>
-            <button className='bg-red-900 text-white py-2 px-4 rounded-md hover:bg-blue-600'>
+            <button className='bg-red-800 text-white py-2 px-4 rounded-md hover:bg-red-900'>
               Reserve
             </button>
           </div>

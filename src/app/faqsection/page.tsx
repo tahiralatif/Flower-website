@@ -1,9 +1,8 @@
-"use client"
 import Image from "next/image";
 import * as Accordion from "@radix-ui/react-accordion";
-import plus from "../../../public/assests/Plus.svg"
+import plus from "../../../public/assests/Plus.svg";
 
-const items = [  
+const items = [
     {
         question: "🌸 1. What types of flowers do you offer?",
         answer: "We offer a wide range of flowers, including seasonal blooms, exotic varieties, and popular choices like roses, lilies, and orchids. Each bouquet is crafted to suit different occasions and preferences.",
@@ -34,19 +33,16 @@ export default function FaqPage() {
     return (
        <div>
         <h1 className="text-center font-serif text-[40px] pt-6 text-red-900 mx-auto px-1">Helpful Information for Flower Lovers</h1>
-<p className="text-center font-serif text-[16px] md:text-[20px] mx-auto px-10  mt-2">
-{"Welcome to our FAQ section! Here, you’ll find helpful information crafted with flower lovers in mind."}
+        <p className="text-center font-serif text-[16px] md:text-[20px] mx-auto px-10 mt-2">
+          {"Welcome to our FAQ section! Here, you&apos;ll find helpful information crafted with flower lovers in mind."}
+        </p>
 
-</p>
-
-
-<div className="flex flex-col lg:flex-row items-center w-full py-12 lg:py-16 px-4 gap-x-6 mx-auto max-w-screen-xl">
+        <div className="flex flex-col lg:flex-row items-center w-full py-12 lg:py-16 px-4 gap-x-6 mx-auto max-w-screen-xl">
             
             <div className="flex-1 w-full lg:w-1/2">
-                <h1 className="text-center font-serif text-[40px] mx-auto px-1">Frequently Ask Questions</h1>
+                <h1 className="text-center font-serif text-[40px] mx-auto px-1">Frequently Asked Questions</h1>
                 <p className="font-serif text-center lg:text-left mt-4">
-                    Explore our Frequently Asked Questions to learn more about our wide selection of flowers, ordering process, delivery options, and
-                    tips to keep your blooms fresh. We're here to make your experience with us delightful and convenient.
+                   {"Explore our Frequently Asked Questions to learn more about our wide selection of flowers, ordering process, delivery options, and tips to keep your blooms fresh. We&apos;re here to make your experience with us delightful and convenient."}
                 </p>
             </div>
 
